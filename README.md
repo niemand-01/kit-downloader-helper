@@ -10,9 +10,10 @@ v0.1:
 2. 打开ilias,使用账号密码登录，进入一门课，进入vorlesung或uebung
 3. 点击kit-downloader-helper，选择 “课来！”
 
-!(/1.png)
+![kelai](/1.png)
+
 4. 勾选想要下载的文件-点击下方下载
->
-(/2.png)
+
+![xiazai](/2.png)
 
 可以改进的：1.选择文件夹下下载
