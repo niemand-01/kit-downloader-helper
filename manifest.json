@@ -4,7 +4,7 @@
   "description" : "KIT download helper",
   "permissions": [ "cookies", "tabs","storage" ,"activeTab","declarativeContent", "http://*/*", "https://ilias.studium.kit.edu/ilias.php?ref_id=*&cmd=view&cmdClass=ilrepositorygui&cmdNode=oo&baseClass=ilrepositorygui"],
   "icons": { "16": "kit.png", "48": "kit.png", "128": "kit.png" },
-  "page_action": {
+  "browser_action": {
     "default_popup": "manager.html",
     "default_icon" : { "16": "kit.png", "48": "kit.png", "128": "kit.png" }
     },
