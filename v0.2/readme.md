@@ -10,7 +10,7 @@
             2.chrome拓展程序-开发者模式-加载以解压程序-选择kit-downloader-helper<br/>
             3.打开ilias,使用账号密码登录，进入一门课，进入vorlesung或uebung<br/><br/>
 ## 2.批量下载课件<br/>
-      ![kejian](https://github.com/niemand-01/kit-downloader-helper/blob/master/1.png)<br/>
+![kejian](https://github.com/niemand-01/kit-downloader-helper/blob/master/1.png)<br/>
       勾选想要下载的文件-点击下方下载<br/>
       ![kejian](https://github.com/niemand-01/kit-downloader-helper/raw/master/2.png)<br/>
       3.批量下载视频<br/>
