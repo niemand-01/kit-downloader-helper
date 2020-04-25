@@ -1,0 +1,35 @@
+﻿{
+  "name" : "KIT download helper",
+  "version" : "0.2",
+  "description": "KIT download helper",
+  "devtools_page": "devtools.html",
+  "permissions": [ "cookies", "downloads","tabs","storage" ,"activeTab","declarativeContent", "https://*/*","http://*/*","debugger"],
+  "icons": { "16": "pics/kit.png", "48": "pics/kit.png", "128": "pics/kit.png" },
+  "browser_action": {
+    "default_popup": "manager.html",
+    "default_icon": {
+      "16": "pics/kit.png",
+      "48": "pics/kit.png",
+      "128": "pics/kit.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [ "https://ilias.studium.kit.edu/ilias.php?ref_id=*&cmd=streamVideo*" ],
+      "js": [ "getSource.js" ],
+      "run_at": "document_end"
+    },
+    {
+      "matches": [ "https://*.ka.bw-cloud-instance.org/*" ],
+      "js": [ "applyDownload.js" ],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "scripts": [ "jquery-3.4.1.min.js", "background.js" ],
+    "persistent":  false
+  },
+
+  "options_page": "options.html",
+  "manifest_version": 2
+}
