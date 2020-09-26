@@ -15,18 +15,21 @@
 
 ## 2.批量下载课件
 勾选想要下载的文件-点击下方下载
+
 ![kejian](https://github.com/niemand-01/kit-downloader-helper/blob/master/1.png)
-  
 ![kejian](https://github.com/niemand-01/kit-downloader-helper/raw/master/2.png)
 
-3.批量下载视频
+批量下载视频
+
 ![shiping](https://github.com/niemand-01/kit-downloader-helper/blob/master/v0.2/pics/3.png)
 ![shiping](https://github.com/niemand-01/kit-downloader-helper/blob/master/v0.2/pics/4.png)
 
 进入视频课程界面，点击右上角“下载页面视频“
+
 ![shiping](https://github.com/niemand-01/kit-downloader-helper/blob/master/v0.2/pics/5.png)
 
 所有课程视频就在下面下载了
+
 ![shiping](https://github.com/niemand-01/kit-downloader-helper/blob/master/v0.2/pics/6.png)
       
       
